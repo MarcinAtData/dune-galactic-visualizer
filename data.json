@@ -1,0 +1,200 @@
+{
+  "planets": [
+    {
+      "name": "Arrakis",
+      "description": "Desert planet and the only source of the spice melange, the most valuable substance in the universe. Home to the Fremen.",
+      "x": 500,
+      "y": 300,
+      "color": "#ff6347",
+      "size": 80
+    },
+    {
+      "name": "Caladan",
+      "x": 800,
+      "y": -400,
+      "size": 15,
+      "color": "#1e90ff",
+      "description": "Oceanic homeworld of House Atreides before their move to Arrakis."
+    },
+    {
+      "name": "Giedi Prime",
+      "x": 600,
+      "y": 600,
+      "size": 18,
+      "color": "#8b0000",
+      "description": "Industrial and polluted planet ruled by House Harkonnen."
+    },
+    {
+      "name": "Kaitain",
+      "x": -400,
+      "y": 400,
+      "size": 25,
+      "color": "#32cd32",
+      "description": "Seat of the Padishah Emperor and capital of the Imperium."
+    },
+    {
+      "name": "Ix",
+      "x": -1200,
+      "y": 800,
+      "size": 20,
+      "color": "#ffc107",
+      "description": "Technologically advanced world specializing in complex machinery."
+    },
+    {
+      "name": "Richese",
+      "x": -700,
+      "y": -300,
+      "size": 18,
+      "color": "#ff69b4",
+      "description": "Renowned for precision manufacturing and intricate devices."
+    },
+    {
+      "name": "Salusa Secundus",
+      "x": -1000,
+      "y": 100,
+      "size": 22,
+      "color": "#800080",
+      "description": "Harsh prison planet of the Emperor and training ground of the Sardaukar."
+    },
+    {
+      "name": "Chusuk",
+      "x": 200,
+      "y": -800,
+      "size": 15,
+      "color": "#228b22",
+      "description": "Planet of musicians, known for rare instruments."
+    },
+    {
+      "name": "Tleilax",
+      "x": 1400,
+      "y": 200,
+      "size": 17,
+      "color": "#d2691e",
+      "description": "Home of the Bene Tleilax, masters of genetic engineering."
+    },
+    {
+      "name": "Bela Tegeuse",
+      "x": -500,
+      "y": -800,
+      "size": 15,
+      "color": "#4682b4",
+      "description": "Desert world believed to be the ancient home of Fremen ancestors."
+    },
+    {
+      "name": "Chapterhouse",
+      "x": -200,
+      "y": 900,
+      "size": 20,
+      "color": "#aa7722",
+      "description": "Primary homeworld and training center of the Bene Gesserit Sisterhood."
+    },
+    {
+      "name": "Wallach IX",
+      "x": 300,
+      "y": 950,
+      "size": 18,
+      "color": "#663399",
+      "description": "A key Bene Gesserit training planet for acolytes."
+    },
+    {
+      "name": "Ecaz",
+      "x": 900,
+      "y": -100,
+      "size": 17,
+      "color": "#ffb347",
+      "description": "Lush world famous for exotic flora, including semuta blossoms."
+    },
+    {
+      "name": "Gamma Waiping",
+      "x": -1500,
+      "y": -200,
+      "size": 16,
+      "color": "#5f9ea0",
+      "description": "Minor industrial planet known for mid-tech production."
+    },
+    {
+      "name": "Poritrin",
+      "x": -1700,
+      "y": 300,
+      "size": 20,
+      "color": "#daa520",
+      "description": "Historical birthplace of early human-computer interaction."
+    },
+    {
+      "name": "Hagal",
+      "x": 1100,
+      "y": -600,
+      "size": 15,
+      "color": "#b8860b",
+      "description": "Mining world rich in gemstones and rare minerals."
+    },
+    {
+      "name": "Buzzell",
+      "x": -1300,
+      "y": -700,
+      "size": 16,
+      "color": "#20b2aa",
+      "description": "Ocean planet known for the valuable soostone harvested from its seas."
+    },
+    {
+      "name": "Parmentier",
+      "x": 600,
+      "y": -1100,
+      "size": 17,
+      "color": "#c71585",
+      "description": "Agricultural planet supplying food to outer systems."
+    },
+    {
+      "name": "Rossak",
+      "x": -300,
+      "y": 1200,
+      "size": 22,
+      "color": "#b03060",
+      "description": "Homeworld of powerful psychic bloodlines vital to Bene Gesserit breeding programs."
+    }
+  ],
+  "connections": [
+    { "from": "Arrakis", "to": "Caladan", "distance": 800 },
+    { "from": "Arrakis", "to": "Giedi Prime", "distance": 600 },
+    { "from": "Arrakis", "to": "Kaitain", "distance": 1200 },
+    { "from": "Arrakis", "to": "Ix", "distance": 1600 },
+    { "from": "Arrakis", "to": "Richese", "distance": 1000 },
+
+    { "from": "Caladan", "to": "Giedi Prime", "distance": 700 },
+    { "from": "Caladan", "to": "Kaitain", "distance": 600 },
+    { "from": "Caladan", "to": "Salusa Secundus", "distance": 1400 },
+
+    { "from": "Giedi Prime", "to": "Kaitain", "distance": 500 },
+
+    { "from": "Kaitain", "to": "Salusa Secundus", "distance": 800 },
+
+    { "from": "Salusa Secundus", "to": "Ix", "distance": 700 },
+    { "from": "Ix", "to": "Richese", "distance": 500 },
+
+    { "from": "Richese", "to": "Chusuk", "distance": 1000 },
+
+    { "from": "Chusuk", "to": "Tleilax", "distance": 1400 },
+
+    { "from": "Tleilax", "to": "Bela Tegeuse", "distance": 900 },
+
+    { "from": "Chapterhouse", "to": "Wallach IX", "distance": 300 },
+    { "from": "Chapterhouse", "to": "Arrakis", "distance": 1100 },
+    { "from": "Wallach IX", "to": "Kaitain", "distance": 950 },
+
+    { "from": "Ecaz", "to": "Caladan", "distance": 500 },
+    { "from": "Ecaz", "to": "Giedi Prime", "distance": 900 },
+
+    { "from": "Gamma Waiping", "to": "Richese", "distance": 1200 },
+
+    { "from": "Poritrin", "to": "Ix", "distance": 900 },
+
+    { "from": "Hagal", "to": "Chusuk", "distance": 700 },
+    { "from": "Hagal", "to": "Arrakis", "distance": 1000 },
+
+    { "from": "Buzzell", "to": "Bela Tegeuse", "distance": 600 },
+
+    { "from": "Parmentier", "to": "Caladan", "distance": 1300 },
+
+    { "from": "Rossak", "to": "Chapterhouse", "distance": 500 }
+  ]
+}
