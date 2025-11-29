@@ -63,7 +63,7 @@ Creates a deeper, immersive galactic effect.
 
 Install Python dependencies:
 
-pip install plotly
+'''pip install plotly'''
 
 
 ▶️ Usage
