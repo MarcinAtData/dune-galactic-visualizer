@@ -1,5 +1,6 @@
 import json
 import plotly.graph_objects as go
+import random
 
 # Load planet data from JSON
 with open("data.json", "r") as f:
@@ -17,7 +18,7 @@ colors = [planet["color"] for planet in planets]
 sizes = [planet["size"] for planet in planets]
 
 # ⭐ Optional: Generate background stars
-import random
+
 star_x = [random.randint(-2000, 2000) for _ in range(300)]
 star_y = [random.randint(-2000, 2000) for _ in range(300)]
 
