@@ -26,33 +26,29 @@ The map includes:
 
 Each planet has:
 
-Name
-
-Description (shown on hover)
-
-X/Y coordinates
-
-Color (visual category)
-
-Size (relative visual importance)
+    Name
+    Description (shown on hover)
+    X/Y coordinates
+    Color (visual category)
+    Size (relative visual importance)
 
 🔗 Interplanetary Routes
 
 Every connection shows:
 
-Visual line between planets
+    Visual line between planets
 
-Hover tooltip with distance
+    Hover tooltip with distance
 
-Smooth, semi-transparent styling
+    Smooth, semi-transparent styling
 
 🖥 Interactive Map
 
-Zoom & pan
+    Zoom & pan
 
-Hover tooltips
+    Hover tooltips
 
-Clean dark-space theme
+    Clean dark-space theme
 
 Automatically scaled labels
 
@@ -63,7 +59,7 @@ Creates a deeper, immersive galactic effect.
 
 Install Python dependencies:
 
-'''pip install plotly'''
+`pip install plotly`
 
 
 ▶️ Usage
@@ -72,4 +68,4 @@ Place data.json in the project directory.
 
 Run the visualizer:
 
-python duinaviz.py
+`python duinaviz.py`
