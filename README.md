@@ -50,16 +50,13 @@ Every connection shows:
 
     Clean dark-space theme
 
-Automatically scaled labels
-
-Creates a deeper, immersive galactic effect.
-
-
 🛠 Requirements
 
 Install Python dependencies:
 
 `pip install plotly`
+
+`pip install random`
 
 
 ▶️ Usage
